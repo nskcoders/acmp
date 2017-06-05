@@ -1,7 +1,7 @@
 //acmp.ru results
     //time: 30ms
     //memory: 248Kb
-    //symbols count: 167
+    //symbols count: 143
 
 #include <iostream>
 
