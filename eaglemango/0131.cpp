@@ -3,16 +3,16 @@
     //memory: 248Kb
     //symbols count: 167
 
-#include <fstream>
- 
+#include <iostream>
+
 int main() {
     int n, v, s, i = 1, imax = -1, vmax = 0;
-    std::scanf("%d", &n);
- 
+    std::cin >> n;
+
     for (; i <= n; i++) {
-        std::scanf("%d%d", &v, &s);
+        std::cin >> v >> s;
         if (s && v>vmax) imax = i, vmax = v;
     }
- 
-    std::printf("%i", imax);
+
+    std::cout << imax;
 }
