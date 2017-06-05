@@ -1,3 +1,8 @@
+//acmp.ru results
+    //time: 30ms
+    //memory: 248Kb
+    //symbols count: 167
+
 #include <fstream>
  
 int main() {
