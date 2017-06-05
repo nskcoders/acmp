@@ -1,12 +1,7 @@
-//acmp.ru results
-    //time: 30ms
-    //memory: 248Kb
-    //symbols count: 143
-
 #include <iostream>
 
+int n, v, s, i = 1, imax = -1, vmax;
 int main() {
-    int n, v, s, i = 1, imax = -1, vmax = 0;
     std::cin >> n;
 
     for (; i <= n; i++) {
